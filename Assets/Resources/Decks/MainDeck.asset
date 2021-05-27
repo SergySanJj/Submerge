@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30ed13e2cbb137840b20597fadb38219, type: 3}
+  m_Name: MainDeck
+  m_EditorClassIdentifier: 
+  deckCards:
+  - card: {fileID: 11400000, guid: 96cce93a1b15c354a920726b594a6c26, type: 2}
+    deckCardType: 0
+  - card: {fileID: 11400000, guid: 8dad9470ba5b82b4ba158e76eeff5a3c, type: 2}
+    deckCardType: 0
+  - card: {fileID: 11400000, guid: 3d431fb93b5ae2e419f8d9962a707cca, type: 2}
+    deckCardType: 1
+  - card: {fileID: 11400000, guid: b36527348e56c684d9a0c53af94c024d, type: 2}
+    deckCardType: 1
+  - card: {fileID: 11400000, guid: 0cb808d1a47186c45b7b3738ab9fa9ef, type: 2}
+    deckCardType: 0
+  - card: {fileID: 11400000, guid: 97b68906da3ed704ca1888c05ba62d6d, type: 2}
+    deckCardType: 0
+  - card: {fileID: 11400000, guid: 60d2cf4d2acf1d447977438b7ee12612, type: 2}
+    deckCardType: 0

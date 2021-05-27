@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c147365c356734180d07292aa80594, type: 3}
+  m_Name: BuildMoreSightseeingWindows
+  m_EditorClassIdentifier: 
+  cardTags: []
+  neededCheckpointsToSpawn: []
+  person: {fileID: 11400000, guid: bec8825ee7a85234b97c562ab48dbb01, type: 2}
+  cardEmotion: {fileID: 0}
+  decisionQuestion: Can we build more sightseeing windows?
+  answers:
+  - No, It can be dangerous
+  - Sure, it will make our people happy
+  actionsOnCardSpawn: []
+  leftSideActions:
+    dayAmount: 1
+    staticActions: []
+    shuffleActions: []
+    gameStateChangeActions:
+    - changerType: 1
+      parameterToChange: 1
+      value: -4
+    - changerType: 1
+      parameterToChange: 3
+      value: 5
+    passCheckpoints: []
+    removeCardsWithTags: []
+  rightSideActions:
+    dayAmount: 3
+    staticActions: []
+    shuffleActions: []
+    gameStateChangeActions:
+    - changerType: 1
+      parameterToChange: 3
+      value: -5
+    - changerType: 1
+      parameterToChange: 2
+      value: -1000
+    - changerType: 1
+      parameterToChange: 1
+      value: 15
+    passCheckpoints:
+    - {fileID: 11400000, guid: f1bb40ab6b1e37144bda98cc7c3f4d49, type: 2}
+    removeCardsWithTags: []
+  isTutorial: 0
+  cardInfoColor: {fileID: 0}

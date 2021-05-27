@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c147365c356734180d07292aa80594, type: 3}
+  m_Name: Inspector_Greeting
+  m_EditorClassIdentifier: 
+  cardTags: []
+  neededCheckpointsToSpawn: []
+  person: {fileID: 11400000, guid: a8fa9ac8af05acc4aa23a4d79063464b, type: 2}
+  cardEmotion: {fileID: 0}
+  decisionQuestion: We have received information that you are violating the laws
+    of the mainland
+  answers:
+  - But this is not a mainland
+  - Inspector..
+  actionsOnCardSpawn: []
+  leftSideActions:
+    dayAmount: 0
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: 97c7082bcdc76a54290be569517747ff, type: 2}
+      shufflePlace: 5
+    gameStateChangeActions: []
+    passCheckpoints: []
+    removeCardsWithTags: []
+  rightSideActions:
+    dayAmount: 0
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: 97c7082bcdc76a54290be569517747ff, type: 2}
+      shufflePlace: 5
+    gameStateChangeActions: []
+    passCheckpoints: []
+    removeCardsWithTags: []
+  isTutorial: 0
+  cardInfoColor: {fileID: 0}

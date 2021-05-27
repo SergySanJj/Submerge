@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c147365c356734180d07292aa80594, type: 3}
+  m_Name: Inspector_friendly2
+  m_EditorClassIdentifier: 
+  cardTags: []
+  neededCheckpointsToSpawn: []
+  person: {fileID: 11400000, guid: a8fa9ac8af05acc4aa23a4d79063464b, type: 2}
+  cardEmotion: {fileID: 0}
+  decisionQuestion: '*whisper* Could you say that you will obey the law, but in fact
+    just put her away from work'
+  answers:
+  - This is corporation property and mainland has no rights here
+  - We obey the law and will stop works after 6 P.M
+  actionsOnCardSpawn: []
+  leftSideActions:
+    dayAmount: 10
+    staticActions: []
+    shuffleActions: []
+    gameStateChangeActions:
+    - changerType: 1
+      parameterToChange: 1
+      value: -10
+    - changerType: 1
+      parameterToChange: 3
+      value: 10
+    passCheckpoints:
+    - {fileID: 11400000, guid: 64a7cd5f10b76974caf5f6074a24ebd8, type: 2}
+    removeCardsWithTags: []
+  rightSideActions:
+    dayAmount: 2
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: 7d522e0683f08dc4bb476424f54fd08c, type: 2}
+      shufflePlace: 1
+    gameStateChangeActions:
+    - changerType: 1
+      parameterToChange: 1
+      value: -5
+    - changerType: 1
+      parameterToChange: 2
+      value: -1000
+    - changerType: 1
+      parameterToChange: 0
+      value: 2
+    passCheckpoints:
+    - {fileID: 11400000, guid: 0a0b8b05f4fc7ab41b50c16cc474ea7a, type: 2}
+    removeCardsWithTags: []
+  isTutorial: 0
+  cardInfoColor: {fileID: 0}

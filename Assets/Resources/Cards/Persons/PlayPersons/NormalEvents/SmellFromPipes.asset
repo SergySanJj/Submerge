@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c147365c356734180d07292aa80594, type: 3}
+  m_Name: SmellFromPipes
+  m_EditorClassIdentifier: 
+  cardTags: []
+  neededCheckpointsToSpawn: []
+  person: {fileID: 11400000, guid: bec8825ee7a85234b97c562ab48dbb01, type: 2}
+  cardEmotion: {fileID: 0}
+  decisionQuestion: I've been smelling a strange smell coming from the water pipes
+    for a few days now, can you do something about it?
+  answers:
+  - I'm sorry but we are too busy
+  - I'll send a plumber to see what happened
+  actionsOnCardSpawn: []
+  leftSideActions:
+    dayAmount: 1
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: 27739b9039bb7544799b9c8413dd950b, type: 2}
+      shufflePlace: 4
+    gameStateChangeActions:
+    - changerType: 1
+      parameterToChange: 1
+      value: -5
+    passCheckpoints: []
+    removeCardsWithTags: []
+  rightSideActions:
+    dayAmount: 2
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: 9d9a5ae339d46b04cbde2c76ee3d149f, type: 2}
+      shufflePlace: 5
+    gameStateChangeActions:
+    - changerType: 1
+      parameterToChange: 2
+      value: -250
+    - changerType: 1
+      parameterToChange: 1
+      value: 5
+    passCheckpoints: []
+    removeCardsWithTags: []
+  isTutorial: 0
+  cardInfoColor: {fileID: 0}

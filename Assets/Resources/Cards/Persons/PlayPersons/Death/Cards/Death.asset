@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c147365c356734180d07292aa80594, type: 3}
+  m_Name: Death
+  m_EditorClassIdentifier: 
+  cardTags: []
+  neededCheckpointsToSpawn: []
+  person: {fileID: 11400000, guid: 1221c59815818574abf367303646ab5b, type: 2}
+  cardEmotion: {fileID: 0}
+  decisionQuestion: You made too many mistakes, they came for your body and I came
+    for your soul
+  answers:
+  - What? No!
+  - I have no choice then..
+  actionsOnCardSpawn: []
+  leftSideActions:
+    dayAmount: 0
+    staticActions:
+    - {fileID: 11400000, guid: 64e5f16d96742f04c9a4b8919dd11567, type: 2}
+    shuffleActions: []
+    gameStateChangeActions: []
+    passCheckpoints: []
+    removeCardsWithTags: []
+  rightSideActions:
+    dayAmount: 0
+    staticActions:
+    - {fileID: 11400000, guid: 64e5f16d96742f04c9a4b8919dd11567, type: 2}
+    shuffleActions: []
+    gameStateChangeActions: []
+    passCheckpoints: []
+    removeCardsWithTags: []
+  isTutorial: 0
+  cardInfoColor: {fileID: 11400000, guid: a6cc10a6e8355054bbc33651b1787fd5, type: 2}

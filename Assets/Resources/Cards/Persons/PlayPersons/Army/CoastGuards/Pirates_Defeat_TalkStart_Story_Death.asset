@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c147365c356734180d07292aa80594, type: 3}
+  m_Name: Pirates_Defeat_TalkStart_Story_Death
+  m_EditorClassIdentifier: 
+  cardTags: []
+  neededCheckpointsToSpawn: []
+  person: {fileID: 11400000, guid: 633c3a2811f87324f8bc38b2102f8dbb, type: 2}
+  cardEmotion: {fileID: 0}
+  decisionQuestion: '*Kills himself with a knife*'
+  answers:
+  - ..
+  - ..
+  actionsOnCardSpawn: []
+  leftSideActions:
+    dayAmount: 0
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: 8ed033dbee7a64443b907b1a3a381d74, type: 2}
+      shufflePlace: 5
+    gameStateChangeActions: []
+    passCheckpoints: []
+    removeCardsWithTags: []
+  rightSideActions:
+    dayAmount: 0
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: 8ed033dbee7a64443b907b1a3a381d74, type: 2}
+      shufflePlace: 5
+    gameStateChangeActions: []
+    passCheckpoints: []
+    removeCardsWithTags: []
+  isTutorial: 0
+  cardInfoColor: {fileID: 0}

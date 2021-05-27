@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c147365c356734180d07292aa80594, type: 3}
+  m_Name: AngrySharkAttack_MaskBase
+  m_EditorClassIdentifier: 
+  cardTags: []
+  neededCheckpointsToSpawn: []
+  person: {fileID: 11400000, guid: 4be5d8d2a8c3341468f06d04077bf618, type: 2}
+  cardEmotion: {fileID: 0}
+  decisionQuestion: The shark is out of sight, we can resume base operations
+  answers:
+  - It's good that everything went well
+  - Prepare for the next possible shark attack
+  actionsOnCardSpawn: []
+  leftSideActions:
+    dayAmount: 1
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: 7aacd53c3a42b0a46a57dddb6e67136e, type: 2}
+      shufflePlace: 3
+    gameStateChangeActions:
+    - changerType: 1
+      parameterToChange: 3
+      value: -2
+    - changerType: 1
+      parameterToChange: 1
+      value: 5
+    passCheckpoints: []
+    removeCardsWithTags: []
+  rightSideActions:
+    dayAmount: 1
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: 746f692c9dc92f14b8b41d07ec37297e, type: 2}
+      shufflePlace: 3
+    gameStateChangeActions:
+    - changerType: 1
+      parameterToChange: 1
+      value: 5
+    - changerType: 1
+      parameterToChange: 3
+      value: 5
+    - changerType: 1
+      parameterToChange: 2
+      value: -100
+    passCheckpoints: []
+    removeCardsWithTags: []
+  isTutorial: 0
+  cardInfoColor: {fileID: 0}

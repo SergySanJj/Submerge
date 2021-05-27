@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c147365c356734180d07292aa80594, type: 3}
+  m_Name: WeaponResearch
+  m_EditorClassIdentifier: 
+  cardTags: []
+  neededCheckpointsToSpawn: []
+  person: {fileID: 11400000, guid: 5962cbb8f95c5f74ba4eab9fd11bd1d9, type: 2}
+  cardEmotion: {fileID: 0}
+  decisionQuestion: We are limited in using conventional rifles as weapons against
+    enemies, can we start researching underwater weapons
+  answers:
+  - I'm afraid it might hurt us
+  - Make a reseach
+  actionsOnCardSpawn:
+  - {fileID: 0}
+  leftSideActions:
+    dayAmount: 0
+    staticActions: []
+    shuffleActions: []
+    gameStateChangeActions:
+    - changerType: 1
+      parameterToChange: 3
+      value: -20
+    - changerType: 1
+      parameterToChange: 1
+      value: 5
+    passCheckpoints: []
+    removeCardsWithTags: []
+  rightSideActions:
+    dayAmount: 3
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: 0ac280fe1a941fe41b305dac6d7084f1, type: 2}
+      shufflePlace: 3
+    gameStateChangeActions:
+    - changerType: 1
+      parameterToChange: 3
+      value: 20
+    - changerType: 1
+      parameterToChange: 2
+      value: -2000
+    passCheckpoints: []
+    removeCardsWithTags: []
+  isTutorial: 0
+  cardInfoColor: {fileID: 0}

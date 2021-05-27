@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c147365c356734180d07292aa80594, type: 3}
+  m_Name: Pirates_Attacked_Negotiate_Deal_TookAll
+  m_EditorClassIdentifier: 
+  cardTags: []
+  neededCheckpointsToSpawn: []
+  person: {fileID: 11400000, guid: 633c3a2811f87324f8bc38b2102f8dbb, type: 2}
+  cardEmotion: {fileID: 0}
+  decisionQuestion: Apparently only you are crazy, we will take everything we find
+  answers:
+  - Just spare my people
+  - Guards, don't resist
+  actionsOnCardSpawn: []
+  leftSideActions:
+    dayAmount: 0
+    staticActions: []
+    shuffleActions: []
+    gameStateChangeActions:
+    - changerType: 1
+      parameterToChange: 2
+      value: -5000
+    - changerType: 1
+      parameterToChange: 3
+      value: -20
+    - changerType: 1
+      parameterToChange: 1
+      value: 10
+    passCheckpoints: []
+    removeCardsWithTags: []
+  rightSideActions:
+    dayAmount: 0
+    staticActions: []
+    shuffleActions: []
+    gameStateChangeActions:
+    - changerType: 1
+      parameterToChange: 0
+      value: -20
+    - changerType: 1
+      parameterToChange: 2
+      value: -7000
+    - changerType: 1
+      parameterToChange: 1
+      value: -10
+    passCheckpoints: []
+    removeCardsWithTags: []
+  isTutorial: 0
+  cardInfoColor: {fileID: 0}

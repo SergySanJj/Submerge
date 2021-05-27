@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c147365c356734180d07292aa80594, type: 3}
+  m_Name: SmellFromPipes_PoisonedWaterFromDeadFish
+  m_EditorClassIdentifier: 
+  cardTags: []
+  neededCheckpointsToSpawn: []
+  person: {fileID: 11400000, guid: 92573f73818157446a8931efcfdb5454, type: 2}
+  cardEmotion: {fileID: 0}
+  decisionQuestion: Our water supply is running poisoned water, it looks like something
+    got into the pipes
+  answers:
+  - Check waterpipes
+  - Investigate our water supplies
+  actionsOnCardSpawn: []
+  leftSideActions:
+    dayAmount: 3
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: 6fd23e7588e363446b589c4d41ef05cb, type: 2}
+      shufflePlace: 5
+    gameStateChangeActions: []
+    passCheckpoints: []
+    removeCardsWithTags: []
+  rightSideActions:
+    dayAmount: 1
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: 6fd23e7588e363446b589c4d41ef05cb, type: 2}
+      shufflePlace: 5
+    gameStateChangeActions: []
+    passCheckpoints: []
+    removeCardsWithTags: []
+  isTutorial: 0
+  cardInfoColor: {fileID: 0}

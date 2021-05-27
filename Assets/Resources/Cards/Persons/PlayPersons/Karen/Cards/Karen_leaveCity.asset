@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c147365c356734180d07292aa80594, type: 3}
+  m_Name: Karen_leaveCity
+  m_EditorClassIdentifier: 
+  cardTags: []
+  neededCheckpointsToSpawn: []
+  person: {fileID: 11400000, guid: 0b4552075b1d2a14dbb0946f1c571964, type: 2}
+  cardEmotion: {fileID: 0}
+  decisionQuestion: Guess me and my son are leaving this place!
+  answers:
+  - We can't stop you from doing that
+  - You'll need to pay for tickets
+  actionsOnCardSpawn: []
+  leftSideActions:
+    dayAmount: 2
+    staticActions: []
+    shuffleActions: []
+    gameStateChangeActions:
+    - changerType: 1
+      parameterToChange: 0
+      value: -2
+    - changerType: 1
+      parameterToChange: 2
+      value: -200
+    - changerType: 1
+      parameterToChange: 1
+      value: 5
+    passCheckpoints:
+    - {fileID: 11400000, guid: 72d0ca4c7058b4540a6da1a3f9297838, type: 2}
+    removeCardsWithTags: []
+  rightSideActions:
+    dayAmount: 2
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: f063e0845f053b145babbc101f4ea072, type: 2}
+      shufflePlace: 3
+    gameStateChangeActions:
+    - changerType: 1
+      parameterToChange: 1
+      value: 10
+    - changerType: 1
+      parameterToChange: 0
+      value: -2
+    passCheckpoints:
+    - {fileID: 11400000, guid: 72d0ca4c7058b4540a6da1a3f9297838, type: 2}
+    removeCardsWithTags: []
+  isTutorial: 0
+  cardInfoColor: {fileID: 0}

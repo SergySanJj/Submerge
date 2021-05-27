@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c147365c356734180d07292aa80594, type: 3}
+  m_Name: SmellFromPipes_FoundFish
+  m_EditorClassIdentifier: 
+  cardTags: []
+  neededCheckpointsToSpawn: []
+  person: {fileID: 11400000, guid: 4badd986386036745b318336b58aa3a1, type: 2}
+  cardEmotion: {fileID: 0}
+  decisionQuestion: Hello, I found a dead fish in the water supply, apparently one
+    of the filters is broken, it's good that we found it now
+  answers:
+  - Good, now get back to work
+  - Great job!
+  actionsOnCardSpawn: []
+  leftSideActions:
+    dayAmount: 1
+    staticActions: []
+    shuffleActions: []
+    gameStateChangeActions: []
+    passCheckpoints: []
+    removeCardsWithTags: []
+  rightSideActions:
+    dayAmount: 1
+    staticActions: []
+    shuffleActions: []
+    gameStateChangeActions: []
+    passCheckpoints: []
+    removeCardsWithTags: []
+  isTutorial: 0
+  cardInfoColor: {fileID: 0}

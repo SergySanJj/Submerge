@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c147365c356734180d07292aa80594, type: 3}
+  m_Name: Aliens_greeting
+  m_EditorClassIdentifier: 
+  cardTags: []
+  neededCheckpointsToSpawn:
+  - {fileID: 11400000, guid: 528c785315235c94395bc81d484efb12, type: 2}
+  person: {fileID: 11400000, guid: 0056dee385debed48bae96b14a48520f, type: 2}
+  cardEmotion: {fileID: 0}
+  decisionQuestion: Boss we need your decision
+  answers:
+  - General!
+  - Greet aliens
+  actionsOnCardSpawn:
+  - {fileID: 11400000, guid: 66c5f151c9bd3b44f9b4140c97fbaafe, type: 2}
+  - {fileID: 11400000, guid: fa583e36509e77e4e9ddf9ae92ee0a47, type: 2}
+  leftSideActions:
+    dayAmount: 2
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: 30c0805b8d4250b448208844c8e907fb, type: 2}
+      shufflePlace: 5
+    gameStateChangeActions:
+    - changerType: 2
+      parameterToChange: 0
+      value: -40
+    - changerType: 2
+      parameterToChange: 1
+      value: -90
+    - changerType: 2
+      parameterToChange: 3
+      value: -50
+    - changerType: 2
+      parameterToChange: 2
+      value: -90
+    passCheckpoints:
+    - {fileID: 11400000, guid: 1fca7d25e2257a24f9ce059e4d5f0176, type: 2}
+    removeCardsWithTags: []
+  rightSideActions:
+    dayAmount: 10
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: f212f4cb9a6a713498a653e46b4c98b2, type: 2}
+      shufflePlace: 5
+    gameStateChangeActions: []
+    passCheckpoints:
+    - {fileID: 11400000, guid: 1fca7d25e2257a24f9ce059e4d5f0176, type: 2}
+    removeCardsWithTags: []
+  isTutorial: 0
+  cardInfoColor: {fileID: 11400000, guid: be945471046a0b741a1e46446a0464eb, type: 2}

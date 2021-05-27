@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c147365c356734180d07292aa80594, type: 3}
+  m_Name: Karen_Complains
+  m_EditorClassIdentifier: 
+  cardTags: []
+  neededCheckpointsToSpawn: []
+  person: {fileID: 11400000, guid: 0b4552075b1d2a14dbb0946f1c571964, type: 2}
+  cardEmotion: {fileID: 0}
+  decisionQuestion: Yes, I have a son and he needs to have a rest, though noise from
+    the working site distracts him
+  answers:
+  - We will install better sound insulation in your residential compartment
+  - You must understand that our city needs development, so the work must go as planned
+  actionsOnCardSpawn: []
+  leftSideActions:
+    dayAmount: 0
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: 7d522e0683f08dc4bb476424f54fd08c, type: 2}
+      shufflePlace: 3
+    gameStateChangeActions:
+    - changerType: 1
+      parameterToChange: 2
+      value: -200
+    - changerType: 1
+      parameterToChange: 1
+      value: 5
+    passCheckpoints: []
+    removeCardsWithTags: []
+  rightSideActions:
+    dayAmount: 0
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: 1d2a47a706977424cb824ad6d6647ad7, type: 2}
+      shufflePlace: 5
+    gameStateChangeActions: []
+    passCheckpoints: []
+    removeCardsWithTags: []
+  isTutorial: 0
+  cardInfoColor: {fileID: 0}

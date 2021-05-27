@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c147365c356734180d07292aa80594, type: 3}
+  m_Name: Pirates_Attacked_Negotiate_Deal
+  m_EditorClassIdentifier: 
+  cardTags: []
+  neededCheckpointsToSpawn: []
+  person: {fileID: 11400000, guid: 633c3a2811f87324f8bc38b2102f8dbb, type: 2}
+  cardEmotion: {fileID: 0}
+  decisionQuestion: Straight to the point.. Well, we want you to pay us half of your
+    savings so we can leave quietly and peacefully
+  answers:
+  - Half? are you mad?
+  - We don't seem to have a choice
+  actionsOnCardSpawn: []
+  leftSideActions:
+    dayAmount: 0
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: e18cb83c64147c749931cd84561a6872, type: 2}
+      shufflePlace: 5
+    gameStateChangeActions: []
+    passCheckpoints: []
+    removeCardsWithTags: []
+  rightSideActions:
+    dayAmount: 1
+    staticActions: []
+    shuffleActions:
+    - cardToShuffle: {fileID: 11400000, guid: b30c5dad3a26b3c43865cc0ae4b1c8b1, type: 2}
+      shufflePlace: 5
+    gameStateChangeActions:
+    - changerType: 2
+      parameterToChange: 2
+      value: -50
+    passCheckpoints: []
+    removeCardsWithTags: []
+  isTutorial: 0
+  cardInfoColor: {fileID: 0}
